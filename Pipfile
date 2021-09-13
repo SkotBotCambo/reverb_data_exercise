@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyter = "*"
+notebook = "*"
+pandas = "*"
+plotly = "==5.3.1"
+ipywidgets = ">=7.5"
+matplotlib = "*"
+scipy = "*"
+statsmodels = "*"
+seaborn = "*"
+tqdm = "*"
+pyppeteer = "*"
+nbconvert = "*"
+
+[requires]
+python_version = "3.7"
